@@ -1,0 +1,30 @@
+---
+abstract: 'AnyEvent client for the MtGox streaming API'
+author:
+  - 'gray <gray@cpan.org>'
+build_requires:
+  Test::More: 0.82
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.112621'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: AnyEvent-MtGox-Stream
+no_index:
+  directory:
+    - t
+    - inc
+recommends:
+  JSON::XS: 2.2
+requires:
+  AnyEvent: 0
+  AnyEvent::HTTP: 0
+  JSON: 2.09
+  Protocol::WebSocket: 0
+  URI: 0
+resources:
+  repository: https://github.com/gray/anyevent-mtgox-stream
+version: 0.01
